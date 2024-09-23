@@ -1,0 +1,15 @@
+.wrapper{
+    height: 500px;
+    width: 600px;
+    border:1px solid red ;
+}
+.w-1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    margin: auto;
+    transform: translateY(45%);
+}
+.r15{
+    text-align: center;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jqurery-demo</title>
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/roboto.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+     <!-- bootstrap bundal js link start  -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- bootstrap bundal js link end -->
+     <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="w-1"><p class="sahil">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veritatis ipsa error laborum suscipit quia, eum laboriosam ad, magni dolore modi nulla, similique nam assumenda sit d!
+            <button type="button" id="hide">hide</button>
+        </p></div>
+    </div>
+    <button type="button" id="show">show</button>
+
+    <table>
+        <tr>
+          <th>Company</th>
+          <th><input type="checkbox" id="table-1"></th>
+          <th><input type="checkbox" class="table-2"></th>
+          <th><input type="checkbox" class="table-2"></th>
+          <th><input type="checkbox" class="table-2"></th>
+          <th><input type="checkbox" class="table-2"></th>
+          <th><input type="checkbox" class="table-2"></th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+      </table> 
+
+      <div class="r15 mt-5">
+        <img src="./img/coke.jpg" alt="" id="jatin">
+        <button type="button" id="sachin">logo</button>
+        <button type="button" id="viki">login</button>
+      </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#hide").click(function(){
+            $(".sahil").hide();
+        });
+        $("#show").click(function(){
+            $(".sahil").show();
+        })
+        $("#table-1").click(function(){
+            $(".table-2").attr("checked",this.checked);
+        })
+        $("#sachin").click(function(){
+            $("#jatin").hide();
+        });
+        $("#viki").click(function(){
+            $("#jatin").show();
+        })
+    });
+</script>
+</html>

@@ -1,0 +1,741 @@
+body {
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+::selection {
+  background-color: #f08080;
+  color: #000000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* section logo start */
+.logo {
+  height: 50px;
+}
+.borders {
+  width: 872px;
+  border: 1px solid #000;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.button-main {
+  text-align: end;
+}
+
+.button {
+  padding: 8px 20px 10px 20px;
+  border-radius: 19px;
+  border: none;
+  background-color: white;
+  border: 1px solid lightgray;
+  color: lightcoral;
+  margin-top: 3px;
+}
+
+.span {
+  margin-left: 6px;
+}
+
+.dropdown-menu {
+  right: 0px;
+  left: 34px;
+  text-align: center;
+  color: lightcoral;
+}
+
+/* section logo end */
+
+/* section img text start */
+.text {
+  /* text-align: center; */
+  margin-top: 63px;
+  margin-bottom: 25px;
+  color: lightcoral;
+  font-weight: 600;
+}
+
+.h1-text {
+  color: #000;
+  /* text-align: center; */
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.p-text {
+  color: #9daac1;
+  /* text-align: center; */
+  font-size: 17px;
+  font-weight: 400;
+  /* margin-bottom: 40px; */
+}
+
+.button-1main {
+  text-align: center;
+}
+.boder-main-bottom {
+  border-bottom: 3px solid lightcoral;
+  display: inline-block;
+  padding-bottom: 10px;
+  /* margin-top: 79px; */
+}
+
+.p-boder {
+  text-align: justify;
+  color: #9daac1;
+  margin-top: 40px;
+  font-size: 16px;
+  max-width: 427px;
+  margin-bottom: 0px;
+}
+
+.sahil {
+  animation: img 2s linear infinite;
+  text-align: center;
+  padding-top: 69px;
+}
+
+@keyframes img {
+  100% {
+    transform: translateX(-5px);
+  }
+
+  50% {
+    transform: translateX(5px);
+  }
+
+  0% {
+    transform: translateX(-5px);
+  }
+}
+
+.img {
+  height: 420px;
+  width: 450px;
+}
+
+/* section img text end */
+
+/* section Look professional start */
+.color {
+  background-color: #ecf2ff;
+  padding-top: 7px;
+}
+
+.main-contan {
+  margin-bottom: 18px;
+}
+
+.img1 {
+  height: 60px;
+  margin-bottom: 18px;
+}
+
+.text-h5 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+/* section Look professional end */
+
+/* section Latest projects start */
+.projects {
+  margin-bottom: 50px;
+}
+
+.latest {
+  margin-bottom: 30px;
+  padding: 0px;
+  border-bottom: 3px solid lightcoral;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+
+/* section Latest projects end */
+
+/* section screen start */
+.screen {
+  margin-top: 100px;
+}
+
+.image {
+  width: 100%;
+  height: 331px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.tamplate {
+  color: #000;
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 33px;
+}
+
+.tamplate-p {
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+/* section screen end */
+
+/* section What to start */
+.latest-2 {
+  margin-bottom: 30px;
+  padding: 0px;
+  border-bottom: 3px solid lightcoral;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.p-What {
+  text-align: justify;
+  color: #9daac1;
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* section What to end */
+
+/* section Good communication start */
+.img2 {
+  height: 60px;
+  margin-bottom: 25px;
+}
+
+/* section Good communication end */
+
+/* section Contact Me start */
+.main-contact {
+  margin-top: 13px;
+}
+
+.h1-text2 {
+  color: #000;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.p-contact {
+  color: #9daac1;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.done {
+  text-align: center;
+}
+
+.emails {
+  padding: 15px 90px 15px 20px;
+  border-radius: 30px;
+  color: #000;
+  font-size: 15px;
+  letter-spacing: 3px;
+  border: 1px solid #9daac1;
+  margin-bottom: 15px;
+}
+
+.button-center {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 18px;
+}
+
+.button-11 {
+  padding: 13px 50px 15px 50px;
+  color: #fff;
+  background-color: lightcoral;
+  border-radius: 30px;
+  border: none;
+  letter-spacing: 4px;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.button-11:hover {
+  background-color: #000;
+}
+
+.icon-li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.footer-f-b {
+  background: lightcoral;
+  width: 45px;
+  height: 45px;
+  position: relative;
+  line-height: 47px;
+  font-size: 18px;
+  color: white;
+  display: inline-block;
+  border-radius: 50px;
+  text-align: center;
+  transition: var(--transition);
+  transition: all 0.4s ease;
+}
+
+.footer-f-b:hover {
+  background-color: #000;
+  transform: translateY(-10px);
+}
+
+.fa-brands {
+  color: #fff;
+  position: absolute;
+  left: 16px;
+  font-size: 15px;
+  line-height: 3;
+}
+
+.fa-regular {
+  color: #fff;
+  position: absolute;
+  left: 16px;
+  font-size: 15px;
+  line-height: 3;
+}
+
+/* section Contact Me end */
+.color-2 {
+  background-color: #ecf2ff;
+  padding: 20px 0px;
+}
+
+.copyright {
+  text-align: center;
+  color: #000;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.div {
+  text-align: center;
+}
+
+.arrow {
+  display: block;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-color: lightcoral;
+  border-radius: 50%;
+  right: 0;
+  z-index: 9;
+  bottom: 0;
+  transition: all 0.5s ease;
+}
+
+.arrow-1 {
+  transform: translateY(14px);
+  font-size: 23px;
+  color: white;
+}
+
+.arrow:hover {
+  background-color: #000;
+}
+
+/* section media query start */
+@media (max-width: 1200px) {
+  .borders {
+    width: 665px;
+  }
+  /* section logo start */
+  .dropdown-menu {
+    left: 33px;
+  }
+
+  /* section logo end */
+  /* section screen start */
+  .image {
+    height: 295px;
+  }
+
+  /* section screen end */
+}
+
+@media (max-width: 992px) {
+  /* section logo start */
+  .borders {
+    width: 460px;
+  }
+  .button {
+    min-width: 127px;
+  }
+  .dropdown-menu {
+    left: 0px;
+  }
+
+  /* section logo end */
+  /* section img text start  */
+  .boder-main-bottom {
+    margin-top: 0px;
+  }
+
+  .p-boder {
+    font-size: 15px;
+  }
+
+  .img {
+    height: 350px;
+    width: 400px;
+    margin-top: 35px;
+  }
+
+  /* section img text end */
+  /* section screen start */
+  .image {
+    height: 242px;
+  }
+
+  /* section screen end */
+}
+
+@media (max-width: 840px) {
+  /* section img text start */
+  .img {
+    height: 300px;
+    width: 350px;
+  }
+
+  /* section img text end */
+}
+
+@media (max-width: 768px) {
+  /* section logo start */
+  .logo-width {
+    width: 50%;
+  }
+
+  .borders {
+    width: 245px;
+  }
+
+  .dropdown-menu {
+    left: 113px;
+  }
+
+  /* section logo end */
+  .sahil {
+    padding-top: 10px;
+  }
+  /* setion text strat */
+  .h1-text {
+    font-size: 50px;
+  }
+
+  .p-text {
+    font-size: 14px;
+  }
+
+  /* setion text end */
+
+  /* section img text start */
+  .boder-main-bottom {
+    font-size: 30px;
+  }
+
+  /* section img text end  */
+
+  /* section Look professional start */
+  .main-contan {
+    width: 50%;
+  }
+
+  /* section Look professional end */
+
+  /* section screen start */
+  .image {
+    height: 300px;
+  }
+
+  /* section screen end */
+
+  /* section Good communication start */
+  .imggg1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* section Good communication end */
+
+  /* section Contact Me start */
+  .h1-text {
+    font-size: 44px;
+  }
+
+  /* section Contact Me end */
+}
+
+@media (max-width: 576px) {
+  .borders {
+    width: 270px;
+  }
+}
+@media (max-width: 537px) {
+  .borders {
+    width: 230px;
+  }
+}
+@media (max-width: 500px) {
+  .borders {
+    width: 188px;
+  }
+}
+
+@media (max-width: 431px) {
+  .borders {
+    width: 130px;
+  }
+  .main-contan {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* section screen start */
+  .image {
+    height: 242px;
+  }
+
+  /* section screen end */
+  /* section Contact Me start */
+  .icon-li {
+    margin-right: 12px;
+  }
+
+  /* section Contact Me end */
+  .copyright {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 379px) {
+  .borders {
+    width: 80px;
+  }
+  /* section Contact Me start  */
+  .icon-li {
+    margin-right: 11px;
+  }
+
+  /* section Contact Me end */
+}
+
+@media (max-width: 374px) {
+  /* section Contact Me start  */
+  .icon-li {
+    margin-right: 10px;
+  }
+
+  /* section Contact Me end */
+}
+
+@media (max-width: 370px) {
+  /* section logo start */
+  .dropdown-menu {
+    left: 0px;
+  }
+
+  /* section logo end */
+  .img {
+    height: 250px;
+    width: 300px;
+  }
+
+  /* section Contact Me start  */
+  .icon-li {
+    margin-right: 9px;
+  }
+
+  /* section Contact Me end */
+}
+
+@media (max-width: 364px) {
+  /* section Contact Me start  */
+  .icon-li {
+    margin-right: 8px;
+  }
+
+  /* section Contact Me end */
+}
+
+@media (max-width: 359px) {
+  /* section Contact Me start  */
+  .icon-li {
+    margin-right: 7px;
+  }
+
+  /* section Contact Me end */
+}
+
+@media (max-width: 354px) {
+  /* section Contact Me start  */
+  .icon-li {
+    margin-right: 6px;
+  }
+  /* section Contact Me end */
+}
+
+@media (max-width: 350px) {
+  /* section Contact Me start  */
+  .icon-li {
+    margin-right: 5px;
+  }
+
+  /* section Contact Me end */
+}
+
+@media (max-width: 344px) {
+  /* section Contact Me start  */
+  .icon-li {
+    margin-right: 4px;
+  }
+
+  /* section Contact Me end */
+}
+
+@media (max-width: 343px) {
+  /* setion text strat */
+  .h1-text {
+    font-size: 34px;
+  }
+
+  .p-text {
+    font-size: 12px;
+  }
+
+  /* setion text end */
+
+  /* section img text start */
+  .boder-main-bottom {
+    font-size: 23px;
+  }
+
+  /* section img text end */
+
+  /* section screen start  */
+  .latest {
+    font-size: 25px;
+  }
+
+  .image {
+    height: 207px;
+  }
+
+  .tamplate {
+    font-size: 21px;
+  }
+
+  .tamplate-p {
+    font-size: 14px;
+  }
+
+  /* section screen end */
+
+  /* section What to start */
+  .latest-2 {
+    font-size: 25px;
+  }
+
+  .p-What {
+    font-size: 14px;
+  }
+
+  /* section What to end */
+
+  .h1-text {
+    font-size: 32px;
+  }
+
+  .p-contact {
+    font-size: 14px;
+  }
+
+  .footer-f-b {
+    width: 40px;
+    height: 40px;
+  }
+
+  .fa-brands {
+    color: #fff;
+    position: absolute;
+    left: 14px;
+    font-size: 15px;
+    line-height: 3;
+  }
+
+  .fa-regular {
+    color: #fff;
+    position: absolute;
+    left: 13px;
+    font-size: 15px;
+    line-height: 3;
+  }
+}
+
+@media (max-width: 342px) {
+  /* section Contact Me start  */
+  .fa-brands {
+    line-height: 40px;
+  }
+
+  .fa-regular {
+    line-height: 40px;
+  }
+
+  /* section Contact Me end */
+}
+
+@media (max-width: 320px) {
+  .borders {
+    display: none;
+  }
+  /* section logo start */
+  .button {
+    font-size: 11px;
+  }
+
+  .dropdown-menu {
+    left: 0px;
+  }
+
+  /* section logo end */
+  .img {
+    height: 200px;
+    width: 250px;
+  }
+  /* section Contact Me start  */
+  .icon-li {
+    margin-right: 1px;
+  }
+  /* section Contact Me end */
+}
+
+/* section media query end */

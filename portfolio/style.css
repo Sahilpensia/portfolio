@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    height: 2000px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.box-1 {
+    width: 500%;
+    position: absolute;
+    height: 200px;
+    background-image: url(../img/sprint.png);
+    background-repeat: repeat-x;
+    animation: sahil 6s linear infinite;
+}
+
+@keyframes sahil {
+    100% {
+        transform: translateX(-2950px);
+    }
+}
+
+
+.animation-text {
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    animation-name: sa;
+    animation-duration: .9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sa {
+    100% {
+        transform: scale(1.5, 1.5);
+        color: red;
+    }
+
+    50% {
+        transform: skewY(1.5, 1.5);
+        color: green;
+    }
+
+    25% {
+        transform: scale(0.0);
+    }
+}
+
+.sahil {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.jatin {
+    animation: sahil 1s linear infinite;
+}
+
+@keyframes sahil {
+    0% {
+        transform: translatex(50px);
+    }
+
+    100% {
+        transform: translatex(0px);
+    }
+}
+
+.button {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.button-a {
+    border: 1px solid green;
+    text-decoration: none;
+    padding: 20px 30px 20px 30px;
+    position: relative;
+}
+
+.span {
+    height: 62px;
+    width: 100%;
+    background-color: blue;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 210px;
+    right: 0;
+    transition: all 1s ease;
+    opacity: 0;
+}
+
+.button-a:hover .span {
+    left: 0;
+    opacity: 0.5;
+}
+
+.container{
+    /* display: flex; */
+    background-color: blue;
+}
+.box-ui{
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    animation-name: jatin;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation-delay: 3; */
+}
+@keyframes jatin{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 250px;
+        left: 0px;
+    }
+    50%{
+        top: 250px;
+        left: 250px;
+    }
+    75%{
+        top: 0px;
+        left: 250px;
+    }
+    100%{
+        left: 0px;
+        right: 250px;
+    }
+    /* 75%{
+        top: 250px;
+        left: 250px;
+    }
+    100%{
+        top: 0px;
+        left: 250px;
+    } */
+}

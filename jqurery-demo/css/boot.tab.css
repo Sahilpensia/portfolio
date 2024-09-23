@@ -1,0 +1,161 @@
+/* .nav-tabs .nav-link-1.active{
+    border: 1px solid red ;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.nav-tabs .nav-link-1{
+    border: 1px solid green ;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+} */
+.nav{
+    background-color: #F7F8FA;
+}
+.popap{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    color: red;
+    transition: all .5s ease;
+}
+.icon:hover{
+    color: black;
+}
+.icon-h6{
+    padding-left: 20x;
+    margin: 0px;
+}
+.icon-h6::after{
+    content: "";
+    border: 1px solid black;
+    margin-left: 22px;
+}
+.icon-1{
+    color: black;
+    transition: all .5s ease;
+    /* margin-left: 50px; */
+    margin-right: 10px;
+    text-decoration: none;
+}
+.icon-1:hover{
+    color: red;
+}
+.icon-2{
+    color: black;
+    transition: all .5s ease;
+    /* margin-left: 50px; */
+    text-decoration: none;
+    padding: 12px;
+}
+.icon-2:hover{
+    color: red;
+}
+.dropdown-toggle {
+    margin-left: 56px;
+}
+
+
+
+
+.popap-1{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-1{
+    color: red;
+    transition: all .5s ease;
+}
+.icon-1:hover{
+    color: black;
+}
+.icon-h6-1{
+    padding-left: 20x;
+    margin: 0px;
+}
+.icon-h6-1::after{
+    content: "";
+    border: 1px solid black;
+    margin-left: 22px;
+}
+.icon-1-1{
+    color: black;
+    transition: all .5s ease;
+    /* margin-left: 50px; */
+    margin-right: 10px;
+    text-decoration: none;
+}
+.icon-1-1:hover{
+    color: red;
+}
+.icon-2-1{
+    color: black;
+    transition: all .5s ease;
+    /* margin-left: 50px; */
+    text-decoration: none;
+    padding: 12px;
+}
+.icon-2-1:hover{
+    color: red;
+}
+.dropdown-toggle {
+    margin-left: 56px;
+}
+
+.nav-pills .nav-link-2.active{
+    /* border: 1px solid hotpink; */
+    border-bottom: 2px solid #F33C74;
+    color: black;
+    background-color: #F7F8FA;
+    outline: none;
+}
+.nav-pills .nav-link-2{
+    /* border: 1px solid green; */
+    color: black;
+    border-radius: 0;
+    margin-right: 30px;
+}
+.sel-span{
+    background-color: #F33C74;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 10px;
+    padding: 3px 5px;
+    margin-left: 10px;
+}
+.nav-item .nav-link-3.active{
+    /* border: 1px solid hotpink; */
+    border-bottom: 2px solid #F33C74;
+    color: black;
+    background-color: #F7F8FA;
+    outline: none;
+}
+.nav-item .nav-link-3{
+    /* border: 1px solid green; */
+    color: black;
+    border-radius: 0;
+    margin-right: 30px;
+}
+.nav-item .nav-link-4.active{
+    /* border: 1px solid hotpink; */
+    border-bottom: 2px solid #F33C74;
+    color: black;
+    background-color: #F7F8FA;
+    outline: none;
+}
+.nav-item .nav-link-4{
+    /* border: 1px solid green; */
+    color: black;
+    border-radius: 0;
+    margin-right: 30px;
+}

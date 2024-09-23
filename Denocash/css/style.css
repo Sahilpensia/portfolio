@@ -1,0 +1,681 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden !important;
+}
+
+.navbar {
+  padding: 0px !important;
+}
+.main-nav {
+  background-color: #010b0c;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+.main-contan {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+}
+.logo {
+  width: 50%;
+  height: 31px;
+  margin-top: 19px;
+}
+.img1 {
+  width: 100%;
+  height: 42px;
+  margin-top: 4px;
+}
+.navbar-collapse {
+  justify-content: end;
+}
+
+.nav-item {
+  padding: 10px 10px 10px 30px;
+}
+.nav-link {
+  font-size: 20px !important;
+  color: #fff !important;
+}
+
+.imgg {
+  width: 100%;
+  height: 500px;
+}
+.text1 {
+  margin-top: 0px;
+}
+.banner-text {
+  padding-top: 140px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 50px;
+}
+.banner-span {
+  color: #30d8a4;
+}
+.banner-p {
+  color: #fff;
+  margin-top: 45px;
+  font-size: 24px;
+  margin-bottom: 70px;
+}
+.banner-button {
+  padding: 10px 45px 10px 45px;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(to bottom right, #ab6fa7 0%, #20da9b 100%);
+}
+.banner-button1 {
+  padding: 10px 45px 10px 45px;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  margin-left: 12px;
+}
+
+/* section cart start */
+.cart-main {
+  background-color: #010b0c;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+.cart-h1 {
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+}
+.cart-p {
+  text-align: center;
+  color: #fff;
+  padding-top: 16px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+.data-main {
+  padding: 50px 10px 10px 10px;
+  position: relative;
+  background-color: #091113;
+  border-radius: 12px;
+}
+.max-data {
+  min-height: 161px;
+}
+.data-posisan {
+  position: absolute;
+  width: 100%;
+  top: -51px;
+  height: 165px;
+  left: 0px;
+}
+.cart-data {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 18px;
+  font-size: 25px;
+}
+.cart-p-data {
+  text-align: center;
+  color: #fff;
+}
+/* section cart end */
+
+/* section why should start */
+.choose-img {
+  width: 150px;
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+.ww {
+  background-color: #010b0c;
+  padding-bottom: 100px;
+}
+.raku {
+  width: 100%;
+  height: 100px;
+}
+.rr {
+  border-bottom: dotted;
+}
+.dd {
+  border-radius: 12px;
+  background-color: #050f10;
+  padding: 20px 0px 20px 0px;
+  transition: 0.5s ease;
+  border: 4px solid #050f10;
+  position: relative;
+}
+.dd:hover {
+  background-color: #071925;
+  border: 4px solid #b77eb5;
+}
+.de {
+  background-color: #131d1e;
+}
+.max-price {
+  font-weight: 700;
+  font-size: 23px;
+}
+.dd:hover .max-price {
+  padding-bottom: 20px;
+}
+.button-why {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #b77eb5;
+  border: none;
+  position: absolute;
+  bottom: -35px;
+  left: 160px;
+  display: none;
+}
+.dd:hover .button-why {
+  display: block;
+  transition: 0.5s ease;
+}
+
+/* section why should end */
+
+/* section make profit start */
+.main2box {
+  margin-left: 100px;
+}
+.borderhow {
+  border-left: 7px solid #ab6fa7;
+  height: 470px;
+  margin: 20px 0px 0px 50px;
+  position: relative;
+  border-radius: 10px;
+}
+.box1 {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border: 8px solid #ab6fa7;
+  position: absolute;
+  top: -1px;
+  left: -17px;
+}
+.box2 {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border: 8px solid #ab6fa7;
+  position: absolute;
+  top: 121px;
+  left: -17px;
+}
+.box3 {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border: 8px solid #ab6fa7;
+  position: absolute;
+  top: 268px;
+  left: -17px;
+}
+.box4 {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border: 8px solid #ab6fa7;
+  position: absolute;
+  top: 412px;
+  left: -17px;
+}
+.box-main1 {
+  display: block;
+  margin-bottom: 50px;
+  max-width: 220px;
+}
+.box-h1 {
+  color: #fff;
+  padding-bottom: 12px;
+}
+.box-p {
+  color: #fff;
+}
+/* section make profit end */
+
+/* section Enter the start */
+.drop-color {
+  border: 4px solid #ab6fa7;
+  border-radius: 20px;
+  background-color: #071925;
+}
+.drop {
+  background-color: #010b0c;
+  padding-bottom: 70px;
+}
+.drop-span {
+  position: absolute;
+  top: 18px;
+  right: 42px;
+}
+.ramu {
+  width: 100%;
+  font-size: 20px !important;
+  text-align: left !important;
+  padding: 18px 20px !important;
+  background-color: #212f38 !important;
+  border: none !important;
+  position: relative;
+}
+.menu-p1 {
+  padding-top: 20px;
+  color: #20da9b;
+  font-size: 18px;
+}
+/* section Enter the end */
+
+/* section teem start */
+.ddd {
+  position: relative;
+}
+.hh {
+  background-color: #091113;
+  border-radius: 20px;
+}
+.ramm {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: -30px;
+  left: 0px;
+}
+.ff {
+  padding-top: 70px;
+  text-align: center;
+  color: white;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: dotted;
+}
+.kk {
+  background-color: #010b0c;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.hj {
+  padding: 10px 30px 40px 30px;
+}
+/* section teem end */
+
+/* section top hyip start */
+.top-color {
+  background-color: #010b0c;
+  padding: 50px 0px;
+}
+.top-img {
+  max-width: 400px;
+  display: block;
+  margin: auto;
+}
+.top-main {
+  text-align: end;
+  max-width: 400px;
+  display: block;
+  margin: auto;
+  padding-top: 56px;
+}
+.top-h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 45px;
+}
+.top-p {
+  color: #fff;
+}
+.top-button {
+  padding: 13px 24px 13px 24px;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(to bottom right, #ab6fa7 0%, #20da9b 100%);
+  color: #fff;
+  font-weight: 600;
+  margin-top: 20px;
+}
+/* section top hyip end */
+
+/* section Write us start */
+.Write-color {
+  background-color: #010b0c;
+  padding: 50px 0px;
+}
+.write-new {
+  background-color: #071925;
+  padding: 30px 50px 50px 50px !important;
+  border-radius: 22px;
+}
+.write-h31 {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.form-label {
+  color: #fff;
+}
+.button-sub {
+  background: linear-gradient(to bottom right, #ab6fa7 0%, #20da9b 100%);
+  padding: 10px 40px 10px 40px !important;
+  border-radius: 30px !important;
+  font-weight: 600 !important;
+}
+
+/* section Write us end */
+
+/* section footer start */
+.main-footer {
+  background-color: #010b0c;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-img {
+  width: 50%;
+  height: 35px;
+}
+.footer-img1 {
+  width: 13%;
+  height: 45px;
+  margin-top: 30px;
+}
+.about-h1 {
+  color: #fff;
+}
+.about-p {
+  color: #fff;
+  max-width: 301px;
+}
+.footer-img2 {
+  width: 13%;
+  height: 36px;
+}
+.footer-h3 {
+  color: #fff;
+  font-size: 24px;
+}
+.footer-newone {
+  display: flex;
+  /* margin-left: 71px; */
+}
+.footer-button1 {
+  color: #fff;
+  background-color: #010b0c;
+  border: none;
+  font-size: 20px;
+}
+.footer-span {
+  padding-top: 8px;
+  color: #fff;
+  font-weight: 700;
+}
+.footer-button2 {
+  color: #fff;
+  background-color: #010b0c;
+  border: none;
+  font-size: 20px;
+}
+.footer3 {
+  color: #fff;
+}
+.footer3-span {
+  color: #20da9b;
+  padding-left: 6px;
+}
+.hr1 {
+  border: 1px solid #20da9b;
+  display: block;
+}
+/* section footer end */
+
+/* section descripsion start */
+.descripsion {
+  background-color: #010b0c;
+}
+.descripsion-p {
+  color: #fff;
+  text-align: center;
+  padding: 50px 0px;
+}
+/* section descripsion end */
+
+/* media query start */
+
+@media (max-width: 1400px) {
+  /* section why should start */
+  .button-why {
+    left: 134px;
+  }
+  /* section why should end */
+  .footer-img1 {
+    width: 16%;
+  }
+  /* section cart start */
+  .max-data {
+    min-height: 175px;
+  }
+  /* section cart end */
+}
+@media (max-width: 1200px) {
+  .banner-text {
+    font-size: 45px;
+    padding-top: 100px;
+  }
+  .banner-p {
+    margin-top: 35px;
+    font-size: 21px;
+    margin-bottom: 40px;
+  }
+  /* section cart start */
+  .max-data {
+    min-height: 199px;
+  }
+  /* section cart end */
+  /* section why should start */
+  .button-why {
+    left: 110px;
+    width: 60px;
+    height: 60px;
+  }
+  /* section why should end */
+
+  /* section footer start */
+  .footer-img1 {
+    width: 17%;
+  }
+  /* section footer end  */
+}
+@media (max-width: 992px) {
+  .logo {
+    width: 75%;
+  }
+  .nav-item {
+    padding: 10px 10px 10px 10px;
+  }
+  .img1 {
+    margin-top: 6px;
+  }
+  .banner-text {
+    font-size: 39px;
+  }
+  .banner-p {
+    margin-top: 27px;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .main-nav {
+    height: 500px;
+  }
+  .banner-text {
+    font-size: 39px;
+    padding-top: 170px;
+  }
+  .imgg {
+    padding-top: 87px;
+  }
+
+  /* section cart start */
+  .max-data {
+    min-height: 277px;
+  }
+  /* section cart end */
+  /* section why should start  */
+  .button-why {
+    left: 71px;
+  }
+  /* section why should end */
+
+  /* section make profit start */
+  .main2box {
+    margin-left: 0px;
+  }
+  /* section make profit end  */
+
+  /* section Enter the start */
+  .menu-p1 {
+    padding-top: 16px;
+    font-size: 13px;
+  }
+  /* section Enter the end */
+
+  /* section teem start */
+  .ff {
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+  .ddd {
+    padding: 0px !important;
+  }
+  .hj {
+    padding: 10px 10px 40px 10px;
+  }
+  /* section teem end */
+
+  /* section top hyip start */
+  .top-h1 {
+    font-size: 42px;
+  }
+  /* section top hyip end */
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 39%;
+    margin-right: 235px;
+    margin-top: 3px;
+  }
+  .navbar-nav {
+    background-color: #000;
+    text-align: center;
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 250px;
+  }
+  .img1 {
+    width: 40%;
+  }
+  .main-nav {
+    height: 922px;
+  }
+  /* section cart start */
+  .data-main {
+    margin-bottom: 40px;
+  }
+  .max-data {
+    min-height: 0px;
+}
+  /* section cart end */
+  /* section why should start  */
+  .button-why {
+    left: 220px;
+  }
+  /* section why should end */
+
+  /* section make profit start  */
+  .imgg {
+    padding-top: 0px;
+  }
+  /* section make profit end */
+
+  /* section teem start */
+  .hj {
+    margin-bottom: 60px;
+  }
+  /* section teem end */
+
+  /* section top hyip start */
+  .top-color {
+    padding: 0px 0px;
+  }
+  .top-h1 {
+    text-align: center;
+  }
+  .top-p {
+    text-align: center;
+  }
+  .top-button {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+  }
+  /* section top hyip end */
+
+  /* section write us start */
+  .choose-img {
+    width: 115px;
+  }
+  /* section write us end */
+
+  .footer-img {
+    width: 100%;
+  }
+  .footer-img1 {
+    width: 100%;
+  }
+  .about-h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .about-p {
+    text-align: center;
+    max-width: none;
+  }
+  .footer-h3 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .Address {
+    justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  .banner-text {
+    font-size: 32px;
+    padding-top: 110px;
+  }
+}
+/* media query end */
